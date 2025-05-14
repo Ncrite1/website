@@ -164,7 +164,7 @@ function updateCartUI() {
     cartTotal.textContent = total;
 }
 
-function checkout() {
+function checkout() {//'
     if (cart.length === 0) {
         alert('Корзина пуста');
         return;
